@@ -1,0 +1,154 @@
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  #navbar{
+    display: block;
+    font-size: 25px;
+  }
+  
+  #logo{
+    height: 8vh;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  nav header{
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3vh;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px 0px;
+    justify-content: space-between;
+  }
+  
+  nav ul{
+    list-style: none;
+    width: 90%;
+    border: 1px solid black;
+    margin: 25px auto;
+    height: 190px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 0px;
+    background-color: rgb(246, 245, 245);
+  }
+  
+  nav li{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  
+  nav li:hover{
+    background-color:blue;
+    
+  }
+  
+  nav a:hover{
+    color:white;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 50px;  
+  }
+  #main-doc{
+    margin-top: 50px;
+    padding: 0 5vw ;
+    
+  }
+  
+  header{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 5vh;
+  }
+  .image-p{
+    display: block;
+    height: auto; 
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 0px;
+  }
+  #main-doc{
+    color: rgb(44, 42, 42);
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2.5rem;
+    margin-bottom: 50px;
+  }
+  
+  code{
+    display: block;
+    background-color: lightgray;
+    padding: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    }
+    span{
+      text-decoration: underline;
+    }
+  
+    footer{
+      text-align: center;
+      margin-left: 20%;
+    }
+    #finger{
+      height: 40px;
+    }
+   
+    #lien:hover{
+      color: blue;
+    }
+  
+    @media (min-width: 850px) {
+     #navbar {
+       float: left;
+       width: 25%;
+       height: 100vh;
+       position: fixed;
+       padding:none ;
+       margin: 0 1px;
+     }
+     #main-doc{
+       margin-top: 0;
+       float : left;
+       margin-left: 26%;
+     }
+    nav header{
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 90%;
+  }
+     nav ul{
+     height: 75%;
+     margin-top: 0;
+     margin-left: 0;
+     width: 90%;
+     font-size: 20px;
+     } 
+     #logo{
+    height: 0;
+    border-radius: 50%;
+    margin: 0;
+   }
+  }
+  
